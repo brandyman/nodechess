@@ -19,4 +19,10 @@ Ganz einfach:
 
 ``git clone git@bitbucket.org:dawjdh/nodechess.git``
 
-``git clone git@bitbucket.org:dawjdh/nodechess.git``
+``cd nodechess``
+
+``npm install``
+
+``node app.js``
+
+Browser nach ``http://localhost:3000``
