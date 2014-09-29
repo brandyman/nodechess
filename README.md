@@ -21,6 +21,8 @@ Ganz einfach:
 
 ``cd nodechess``
 
+Dort gibts die Datei ``app.js``, darin gibts die Zeile ``var engine = new Engine('/var/chess/engines/stockfish/stockfish-5-64');``, das ist der Pfad zur UCI-Engine. D.h. die eigentliche Schach-Engine. Da lädt man seine favorisierte Engine runter (und entpackt diese usw.) und muss den Pfad entsprechend anpassen. Eine Liste mit UCI-Engines gibts hier http://kvetka.org/en/UCI_engines.shtml und hier http://www.sdchess.ru/Engines_UCI_top.htm und hier http://www.computerchess.org.uk/ccrl/4040/. Wie man sieht, ist die stärkste und freie Engine momentan Stockfish (hängt halt von der Rechenpower ab).
+
 ``npm install``
 
 ``node app.js``
