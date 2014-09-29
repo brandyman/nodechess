@@ -1,0 +1,15 @@
+doctype html
+html
+  head
+    title= title + ' | ' + appname
+    link(rel="stylesheet", href="/stylesheets/style.css")
+    link(rel="stylesheet", href="/javascripts/chessboardjs/css/chessboard-0.3.0.min.css")
+    script(src='http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js', type="text/javascript")
+    script(src='http://cdn.sockjs.org/sockjs-0.3.min.js', type="text/javascript")
+    
+  body
+    .container
+      h1= title
+      p Remote Chess App {Stockfish Engine + NODE.JS}.
+      block content
+  script(src='/javascripts/main.js', type="text/javascript")
