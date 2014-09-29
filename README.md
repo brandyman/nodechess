@@ -1,6 +1,6 @@
 ## Was ist das? ##
 
-Eine ganz einfache NODE.JS Anwendung welche die folgenden Bibliotheken verwendet:
+Eine Computer-Schach Web-Anwendung? Eigentlich eine ganz einfache NODE.JS Anwendung mit der man übers Web gegen eine UCI-Kompatible Schach-Engine spielen kann. Verwendet dabei folgenden Bibliotheken:
 
 * http://chessboardjs.com/ - Zur grafischen Darstellung eines Schachbretts
 * https://github.com/jhlywa/chess.js - Um die Gültigkeit eines Zugs auf dem Schachbrett sicher zustellen sowie Mattstellungen usw. zu erkennen
