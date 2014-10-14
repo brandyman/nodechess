@@ -17,7 +17,7 @@ Ganz einfach:
 
 ## Wie kann ich es starten / spielen? ##
 
-``git clone git@bitbucket.org:dawjdh/nodechess.git``
+``git clone https://github.com/baldinsystems/nodechess``
 
 ``cd nodechess``
 
